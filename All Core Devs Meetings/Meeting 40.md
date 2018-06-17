@@ -311,7 +311,7 @@ Video starts at [[]()].
         * It may be something we need to pay attention to
     * V: If we try to compute how much BLAKE verification costs it's just verification of equation y^2=x^3+b, similar to ECADD, ECMUL much bigger
     * Nick: Should we reduce gas cost for calling precompiles? Right now it has the same gas cost as any other account
-        * Alexey: I think there is already an EIP for that written by Jordi Baylina
+        * Alexey: I think there is already an EIP for that written by Jordi Baylina [https://eips.ethereum.org/EIPS/eip-1109](EIP1109)
     * Casey: I'm against creating new precompiles but adjusting gas cost of existing ones is easier
         * It's a slippery slope
         * One of the promises of ewasm is that users can deploy their own precompiles
